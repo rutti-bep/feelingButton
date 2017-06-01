@@ -1,0 +1,17 @@
+.gauge-wrapper {
+  background-color: #42d7f4;
+  height: 10px;
+  position: relative;
+  margin-bottom: 2px;
+}
+.gauge-inner {
+  position: absolute;
+  bottom: 0px;
+  box-sizing: border-box;
+  height: 10px;
+  width: 50%;
+  background-color: #ef37af;
+/*  -webkit-transition: all .7s 1s ease;
+  background: -webkit-gradient(linear,left bottom,right top,from(#42d7f4),to(#ef37af));
+  border: 1px inset #F25500;*/
+}
