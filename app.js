@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 var app = express();
 
 var feels = ["good","bad"];
-var feelPowers = [0,0];
+var feelPowers = [10,10];
 
 app.use(bodyParser.urlencoded({
       extended: true

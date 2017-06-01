@@ -7,8 +7,13 @@
     <link rel="stylesheet" type="text/css" href="feeling.css">
   </head>
   <body>
-    <div class="gauge-wrapper"><div class="gauge-inner"></div></div>
-    <button  type="button" id="good" value="good" onclick="xhrModule('good');">good</button>
-    <button  type="button" id="bad" value="bad" onclick="xhrModule('bad');">bad</button>
+    <div class="gauge-wrapper bad"><div class="gauge-inner good"></div></div>
+    <div>
+    <h2 id="goodtext" class="goodtext">10</h2>
+   <h2 id="worldfeel" class="text">even world!</h2>
+    <h2 id="badtext" class="badtext">10</h2>
+    </div>
+    <button  type="button" id="good" class="good circle" value="good" onclick="xhrModule('good');"><div class="goodtext">good</div></button>
+    <button  type="button" id="bad" class="bad circle" value="bad" onclick="xhrModule('bad');"><div class="badtext">bad</div></button>
   </body>
 </html>
